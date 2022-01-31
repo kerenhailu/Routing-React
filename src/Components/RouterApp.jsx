@@ -7,8 +7,8 @@ import Orders from './Orders/Orders.Component';
 import Menu from './Menu/Menu.Component';
 const RouterApp=()=>{
     return(<BrowserRouter>
-        <Navbar/>
         <Header/>
+        <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/Orders" element={<Orders/>}/>

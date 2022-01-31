@@ -1,5 +1,5 @@
 const Header=()=>{
-    return(<div>
+    return(<div id="ComHeader main">
 <h1>Header</h1>
     </div>)
 }
